@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(31, 20, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 20, 230, 1) 0%,
+    rgba(30, 213, 224, 1) 0%,
+    rgba(15, 235, 221, 1) 0%,
+    #058b43 100%,
+    rgba(4, 242, 149, 1) 100%,
+    rgba(15, 59, 214, 1) 100%,
+      rgba(12, 210, 241, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+      );
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+    h1{
+      color: white;
+    }
+
+    .name{
+      margin-top: 20px;
+  }
+
+  .name label{
+ margin-right: 100px;
+}
+
+.name input{
+  width: 165px;
+  margin-right: 6px;
+  padding: 10px;
+}
+
+.email{
+  margin-top: 20px;
+}
+.email label{
+  margin-right: 85px;
+}
+
+
+.email input{
+width: 340px; 
+padding: 10px;
+}
+
+.phone{
+  margin-top: 20px;
+}
+
+.phone label{
+  margin-right: 110px;
+}
+
+.phone input{
+  width: 107px;
+  margin-right: 6px;
+  padding: 10px;
+}
+
+.messub{
+  margin-top: 20px;
+}
+
+.messub label{
+  margin-right: 40px
+}
+
+.messub select{
+  width: 225px;
+  padding: 10px;
+}
+
+.message label{
+  margin-right: 90px;
+}
+
+
+  
+  .message{
+    display: flex;
+    margin-top: 20px;
+    justify-content: start;
+
+  }
+
+  .chiziq{
+    color: white;
+  }
+
+  input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  
+ 
